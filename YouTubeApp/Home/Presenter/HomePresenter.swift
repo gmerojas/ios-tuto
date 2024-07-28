@@ -20,6 +20,11 @@ class HomePresenter{
     init(delegate : HomeViewProtocol, provider : HomeProvider = HomeProvider()){
         self.provider = provider
         self.delegate = delegate
+        #if DEBUG
+        if MockManager.shared.runAppWithMock{
+            self.provider = HomeProviderMock()
+        }
+        #endif
     }
     
     func getHomeObjects() async{

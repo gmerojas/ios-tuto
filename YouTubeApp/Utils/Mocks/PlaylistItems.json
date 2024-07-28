@@ -1,0 +1,214 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "jQxt96tU_F3yB6zlMIxxdtUHwMw",
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "8TWd07cx-Bfh4A7ndHKvJZXzAmA",
+            "id": "UExUX09PYktaM0NwczNjLThVdW41MFpNTGxaNEx2ODRFWC41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2023-12-02T18:30:16Z",
+                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
+                "title": "SwiftData - Como crear un Model Container Personalizado",
+                "description": "En esta entrega, te sumergirás en la creación de model containers personalizados en SwiftData, aprendiendo a estructurar y organizar datos de manera eficiente en tus aplicaciones SwiftUI. Desde la conceptualización hasta la implementación práctica, te guiaré a través del proceso paso a paso para crear modelos de datos personalizados y optimizados para tus necesidades específicas. Además, exploraremos cómo acceder y examinar los datos almacenados utilizando herramientas como SQL Browser, ofreciéndote una comprensión profunda de tus datos y cómo interactuar con ellos en tiempo real. ¡No te pierdas esta oportunidad de mejorar tu dominio en el manejo de datos con SwiftData y lleva tus aplicaciones SwiftUI al siguiente nivel!\n\nSUSCRIBETE AL CANAL\nhttps://bit.ly/3n6ttur\n\nPlaylist de SwiftData:\nhttps://www.youtube.com/playlist?list=PLT_OObKZ3Cps3c-8Uun50ZMLlZ4Lv84EX\n\nRepositorio Github\nBranch del Video 1 - Introducción:\nhttps://github.com/victorroldan-dev/SwiftDataTutorial/tree/main/SwiftDataTutorial\n\nBranch del Video 2 - Model Container\nhttps://github.com/victorroldan-dev/SwiftDataTutorial/blob/video-2-containers/SwiftDataTutorial/SwiftDataTutorialApp.swift\n\nBranch del Video 3 - Relationship\nhttps://github.com/victorroldan-dev/SwiftDataTutorial/tree/video-3-relationship/SwiftDataTutorial\n\nBranch del Video 4 - Filter y Sorting\nhttps://github.com/victorroldan-dev/SwiftDataTutorial/tree/video-4-filtering-and-sorting/SwiftDataTutorial\n\nDescargar DB Browser for SQLite\nhttps://sqlitebrowser.org/dl/\n\n-- Timestamps --\n00:00 Introducción\n00:36 Ubicación por defecto DB\n03:23 Crear ModelContainer\n07:45 Crear ModelContainer con Schema\n11:24 Resumen\n\nTwitter: \nhttps://twitter.com/VictorRoldanDev\n\nContacto: \nvictorroldan.dev@gmail.com\n\n#SwiftData #iOSDevelopment #iosprogramming  #SwiftUI #VictorRoldanDev #TutorialesDeSwift",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/KSsF6e9-8dc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/KSsF6e9-8dc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/KSsF6e9-8dc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/KSsF6e9-8dc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/KSsF6e9-8dc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Victor Roldan Dev",
+                "playlistId": "PLT_OObKZ3Cps3c-8Uun50ZMLlZ4Lv84EX",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "KSsF6e9-8dc"
+                },
+                "videoOwnerChannelTitle": "Victor Roldan Dev",
+                "videoOwnerChannelId": "UC_I_lCplbwIf60iUgsTE79g"
+            },
+            "contentDetails": {
+                "videoId": "KSsF6e9-8dc",
+                "videoPublishedAt": "2023-12-02T19:00:04Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "aIqk2rklAU3W1AA3vEh65Nb7WDM",
+            "id": "UExUX09PYktaM0NwczNjLThVdW41MFpNTGxaNEx2ODRFWC4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2023-12-06T02:11:39Z",
+                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
+                "title": "SwiftData - Como crear Relationship One-to-Many",
+                "description": "🚀 ¡Descubre cómo gestionar relaciones complejas uno a muchos en SwiftUI utilizando SwiftData! En este video, exploraremos la implementación y manejo de relationship one-to-many en tus aplicaciones SwiftUI. Aprende cómo SwiftData simplifica la gestión de estas relaciones, permitiéndote crear aplicaciones más eficientes y potentes en poco tiempo.\n\nSUSCRIBETE AL CANAL\nhttps://bit.ly/3n6ttur\n\nPlaylist de SwiftData:\nhttps://www.youtube.com/playlist?list=PLT_OObKZ3Cps3c-8Uun50ZMLlZ4Lv84EX\n\nRepositorio Github\nBranch del Video 1 - Introducción:\nhttps://github.com/victorroldan-dev/SwiftDataTutorial/tree/main/SwiftDataTutorial\n\nBranch del Video 2 - Model Container\nhttps://github.com/victorroldan-dev/SwiftDataTutorial/blob/video-2-containers/SwiftDataTutorial/SwiftDataTutorialApp.swift\n\nBranch del Video 3 - Relationship\nhttps://github.com/victorroldan-dev/SwiftDataTutorial/tree/video-3-relationship/SwiftDataTutorial\n\nBranch del Video 4 - Filter y Sorting\nhttps://github.com/victorroldan-dev/SwiftDataTutorial/tree/video-4-filtering-and-sorting/SwiftDataTutorial\n\nDescargar DB Browser for SQLite\nhttps://sqlitebrowser.org/dl/\n\n\n-- Timestamps --\n00:00 Introducción\n00:46 Creación CityModel\n02:24 Refactor Listado Paises\n06:18 Predicate @Query\n09:24 Relationship\n11:56 Update con Swiftdata\n\nContacto: \nvictorroldan.dev@gmail.com\n\n#SwiftDataRelationship #iOSDevelopment #iOSProgramming #Swift #VictorRoldanDev #CursoDeSwift #TutorialesDeSwift",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5RqqSiPOkso/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5RqqSiPOkso/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5RqqSiPOkso/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/5RqqSiPOkso/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/5RqqSiPOkso/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Victor Roldan Dev",
+                "playlistId": "PLT_OObKZ3Cps3c-8Uun50ZMLlZ4Lv84EX",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "5RqqSiPOkso"
+                },
+                "videoOwnerChannelTitle": "Victor Roldan Dev",
+                "videoOwnerChannelId": "UC_I_lCplbwIf60iUgsTE79g"
+            },
+            "contentDetails": {
+                "videoId": "5RqqSiPOkso",
+                "videoPublishedAt": "2023-12-06T13:00:05Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "a0WVOmxlasjs21EEwB0p5VyZhUI",
+            "id": "UExUX09PYktaM0NwczNjLThVdW41MFpNTGxaNEx2ODRFWC4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2023-12-06T02:38:17Z",
+                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
+                "title": "Los fundamentos de SwiftData: Introducción con Xcode 15",
+                "description": "🚀 Descubre Los fundamentos de SwiftData, Introducción con Xcode 15\n\n¡Bienvenido a la introducción definitiva a SwiftData! ¿Quieres potenciar tus habilidades en el manejo de bases de datos en Swift? Este video es tu punto de partida perfecto para explorar las funcionalidades y el potencial que ofrece SwiftData en el desarrollo de aplicaciones.\n\nEn este video, te sumergirás en el mundo de SwiftData, una poderosa y fácil de usar biblioteca diseñada para simplificar la gestión de bases de datos SQLite en aplicaciones Swift. Aprenderás los conceptos básicos y puesta en marcha para utilizar SwiftData.\n\n✔️ La configuración inicial y la integración con tu proyecto de Swift.\n✔️ Operaciones esenciales de creación, lectura y eliminación de datos.\n✔️ La optimización del rendimiento y las mejores prácticas en el manejo de bases de datos.\n✔️ La comprensión de la sintaxis Swift-friendly para interactuar con la base de datos.\n\nNo importa si eres un principiante en el desarrollo iOS o un desarrollador experimentado, este video te proporcionará el conocimiento necesario para empezar a trabajar con SwiftData y fortalecer tu habilidad en la gestión de datos en Swift.\n\nPlaylist de SwiftData:\nhttps://www.youtube.com/playlist?list=PLT_OObKZ3Cps3c-8Uun50ZMLlZ4Lv84EX\n\nDocumentación Swift Data\nhttps://developer.apple.com/documentation/swiftdata\n\nRepositorio Github\nBranch del Video 1 - Introducción:\nhttps://github.com/victorroldan-dev/SwiftDataTutorial/tree/main/SwiftDataTutorial\n\nBranch del Video 2 - Model Container\nhttps://github.com/victorroldan-dev/SwiftDataTutorial/blob/video-2-containers/SwiftDataTutorial/SwiftDataTutorialApp.swift\n\nBranch del Video 3 - Relationship\nhttps://github.com/victorroldan-dev/SwiftDataTutorial/tree/video-3-relationship/SwiftDataTutorial\n\nBranch del Video 4 - Filter y Sorting\nhttps://github.com/victorroldan-dev/SwiftDataTutorial/tree/video-4-filtering-and-sorting/SwiftDataTutorial\n\nSUSCRIBETE AL CANAL\nhttps://bit.ly/3n6ttur\n\n-- Timestamps --\n00:00 Introducción\n01:24 Creación del Proyecto\n02:02 Pasos para Configuración\n02:26 Creación @Model\n04:34 ModelContainer\n05:20 vars @Query y @Environment context\n08:54 context.insert\n11:56 context.delete\n14:11 @Query sort y Order\n15:36 Resumen\n\nContacto: \nvictorroldan.dev@gmail.com\n\n#SwiftDataEspañol #iOSDevelopment #iOSProgramming #Swift #VictorRoldanDev #TutorialesDeSwift",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/e0WorWOu2HY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/e0WorWOu2HY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/e0WorWOu2HY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/e0WorWOu2HY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/e0WorWOu2HY/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Victor Roldan Dev",
+                "playlistId": "PLT_OObKZ3Cps3c-8Uun50ZMLlZ4Lv84EX",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "e0WorWOu2HY"
+                },
+                "videoOwnerChannelTitle": "Victor Roldan Dev",
+                "videoOwnerChannelId": "UC_I_lCplbwIf60iUgsTE79g"
+            },
+            "contentDetails": {
+                "videoId": "e0WorWOu2HY",
+                "videoPublishedAt": "2023-11-25T19:03:49Z"
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "MtBaXqsQV6dODpaixxWHd8SsMvk",
+            "id": "UExUX09PYktaM0NwczNjLThVdW41MFpNTGxaNEx2ODRFWC41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2023-12-10T16:16:27Z",
+                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
+                "title": "SwiftData - Filtrar y Ordenar datos con Predicate y Query.",
+                "description": "En este tutorial profundizo en cómo puedes aprovechar el poder de Searchable y Menu Picker para filtrar y organizar tus datos de manera eficiente utilizando Predicate y Query. A lo largo del video, exploraremos las técnicas avanzadas utilizando @Query y #Predicate para manipular datos. Si eres un desarrollador iOS aspirante o con experiencia, este video te proporcionará las herramientas necesarias para mejorar tus habilidades en la gestión de datos.\n\nSUSCRIBETE AL CANAL\nhttps://bit.ly/3n6ttur\n\nPlaylist de SwiftData:\nhttps://www.youtube.com/playlist?list=PLT_OObKZ3Cps3c-8Uun50ZMLlZ4Lv84EX\n\nRepositorio Github\nBranch del Video 1 - Introducción:\nhttps://github.com/victorroldan-dev/SwiftDataTutorial/tree/main/SwiftDataTutorial\n\nBranch del Video 2 - Model Container\nhttps://github.com/victorroldan-dev/SwiftDataTutorial/blob/video-2-containers/SwiftDataTutorial/SwiftDataTutorialApp.swift\n\nBranch del Video 3 - Relationship\nhttps://github.com/victorroldan-dev/SwiftDataTutorial/tree/video-3-relationship/SwiftDataTutorial\n\nBranch del Video 4 - Filter y Sorting\nhttps://github.com/victorroldan-dev/SwiftDataTutorial/tree/video-4-filtering-and-sorting/SwiftDataTutorial\n\nDescargar DB Browser for SQLite\nhttps://sqlitebrowser.org/dl/\n\n-- Timestamps --\n00:00 Introducción\n00:39 Agregar Date\n00:48 Searchable\n02:35 Init Predicate y Query\n06:53 Sorting\n\nTwitter: \nhttps://twitter.com/VictorRoldanDev\n\nContacto: \nvictorroldan.dev@gmail.com\n\n#iOSDevelopment #iOSProgramming #Swift #VictorRoldanDev #CursoDeSwift #TutorialesDeSwift",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5oISL0RqSe0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5oISL0RqSe0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5oISL0RqSe0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/5oISL0RqSe0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/5oISL0RqSe0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Victor Roldan Dev",
+                "playlistId": "PLT_OObKZ3Cps3c-8Uun50ZMLlZ4Lv84EX",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "5oISL0RqSe0"
+                },
+                "videoOwnerChannelTitle": "Victor Roldan Dev",
+                "videoOwnerChannelId": "UC_I_lCplbwIf60iUgsTE79g"
+            },
+            "contentDetails": {
+                "videoId": "5oISL0RqSe0",
+                "videoPublishedAt": "2023-12-13T13:00:05Z"
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 4,
+        "resultsPerPage": 5
+    }
+}

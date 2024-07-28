@@ -1,0 +1,241 @@
+{
+    "kind": "youtube#playlistListResponse",
+    "etag": "8hK7aDI9UiACGzOLsVbplPiWsio",
+    "nextPageToken": "CAUQAA",
+    "pageInfo": {
+        "totalResults": 12,
+        "resultsPerPage": 5
+    },
+    "items": [
+        {
+            "kind": "youtube#playlist",
+            "etag": "iOVabiYHmtvWGNEnNeoGZ7XGsMI",
+            "id": "PLT_OObKZ3Cps3c-8Uun50ZMLlZ4Lv84EX",
+            "snippet": {
+                "publishedAt": "2023-12-02T18:30:10Z",
+                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
+                "title": "SwiftData",
+                "description": "En esta playlist, encontrarás una guía detallada sobre cómo integrar y utilizar SwiftData en SwiftUI para manejar datos de forma eficiente en tus aplicaciones. Desde la configuración inicial del proyecto hasta operaciones avanzadas como inserción, eliminación y listado de datos, cada video te llevará paso a paso a través de conceptos fundamentales y técnicas avanzadas. Aprenderás a crear modelos de datos personalizados, explorar datos utilizando SQL Browser y mucho más. ¡Prepárate para potenciar tus aplicaciones SwiftUI con SwiftData y llevar tus habilidades de desarrollo al siguiente nivel con esta completa serie de tutoriales!",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/KSsF6e9-8dc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/KSsF6e9-8dc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/KSsF6e9-8dc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/KSsF6e9-8dc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/KSsF6e9-8dc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Victor Roldan Dev",
+                "localized": {
+                    "title": "SwiftData",
+                    "description": "En esta playlist, encontrarás una guía detallada sobre cómo integrar y utilizar SwiftData en SwiftUI para manejar datos de forma eficiente en tus aplicaciones. Desde la configuración inicial del proyecto hasta operaciones avanzadas como inserción, eliminación y listado de datos, cada video te llevará paso a paso a través de conceptos fundamentales y técnicas avanzadas. Aprenderás a crear modelos de datos personalizados, explorar datos utilizando SQL Browser y mucho más. ¡Prepárate para potenciar tus aplicaciones SwiftUI con SwiftData y llevar tus habilidades de desarrollo al siguiente nivel con esta completa serie de tutoriales!"
+                }
+            },
+            "contentDetails": {
+                "itemCount": 4
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "3XX-xkoPr8X2Lwftr5Sj_6DANns",
+            "id": "PLT_OObKZ3CptOu3A6_Mv-lk7iPU_sbNq5",
+            "snippet": {
+                "publishedAt": "2022-08-30T06:17:55Z",
+                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
+                "title": "Shapes en SwiftUI",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gZGg5QP-sj4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gZGg5QP-sj4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gZGg5QP-sj4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/gZGg5QP-sj4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/gZGg5QP-sj4/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Victor Roldan Dev",
+                "localized": {
+                    "title": "Shapes en SwiftUI",
+                    "description": ""
+                }
+            },
+            "contentDetails": {
+                "itemCount": 2
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "NlNo4x4yVMuzQ5apN-h0tsli-gg",
+            "id": "PLT_OObKZ3CpscUEWebc7hReP24nXjhui4",
+            "snippet": {
+                "publishedAt": "2022-06-20T16:03:50Z",
+                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
+                "title": "Curso de SwiftUI 4 para Principiantes",
+                "description": "Un curso de introducción a SwiftUI 4.0 donde paso por sus principales componentes y te enteres de cómo funciona este Framework.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/b-GYQYUQzAQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/b-GYQYUQzAQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/b-GYQYUQzAQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/b-GYQYUQzAQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/b-GYQYUQzAQ/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Victor Roldan Dev",
+                "localized": {
+                    "title": "Curso de SwiftUI 4 para Principiantes",
+                    "description": "Un curso de introducción a SwiftUI 4.0 donde paso por sus principales componentes y te enteres de cómo funciona este Framework."
+                }
+            },
+            "contentDetails": {
+                "itemCount": 18
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "cmN3dkYAfl772eQxjBpf2iDWgP8",
+            "id": "PLT_OObKZ3Cpta8gTfbI_ynqu7TgWCYxKO",
+            "snippet": {
+                "publishedAt": "2022-06-07T15:57:38Z",
+                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
+                "title": "WWDC22",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/77dIzaydGO0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/77dIzaydGO0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/77dIzaydGO0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/77dIzaydGO0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/77dIzaydGO0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Victor Roldan Dev",
+                "localized": {
+                    "title": "WWDC22",
+                    "description": ""
+                }
+            },
+            "contentDetails": {
+                "itemCount": 6
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "sYs0in_3FbDvA4rckmS2_DDooZ4",
+            "id": "PLT_OObKZ3CpvYfPoK9wX57M1JiggnxW8t",
+            "snippet": {
+                "publishedAt": "2022-06-02T01:42:50Z",
+                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
+                "title": "Patrones de Diseño - Swift",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/jFKuMb6kILU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/jFKuMb6kILU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/jFKuMb6kILU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/jFKuMb6kILU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/jFKuMb6kILU/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Victor Roldan Dev",
+                "localized": {
+                    "title": "Patrones de Diseño - Swift",
+                    "description": ""
+                }
+            },
+            "contentDetails": {
+                "itemCount": 3
+            }
+        }
+    ]
+}
