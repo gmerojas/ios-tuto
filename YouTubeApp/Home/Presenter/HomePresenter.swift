@@ -26,18 +26,18 @@ class HomePresenter{
         objectList.removeAll()
         do{
             let channel = try await provider.getChannels(channelId: Constants.channelId).items
-            //let playlist = try await provider.getPlaylists(channelId: Constants.channelId).items
-            //let videos = try await provider.getVideos(searchString: "", channelId: Constants.channelId).items
-            
-            //let playlistItems = try await provider.getPlaylistItems(playlistId: playlist.first?.id ?? "").items
+            let playlist = try await provider.getPlaylists(channelId: Constants.channelId).items
+            let videos = try await provider.getVideos(searchString: "", channelId: Constants.channelId).items
+            let playlistItems = try await provider.getPlaylistItems(playlistId: playlist.first?.id ?? "").items
             
             objectList.append(channel)
-            //objectList.append(playlistItems)
-            //objectList.append(videos)
-            //objectList.append(playlist)
+            objectList.append(playlistItems)
+            objectList.append(videos)
+            objectList.append(playlist)
             
         }catch{
             print(error)
+            objectList.removeAll()
         }
         
     }

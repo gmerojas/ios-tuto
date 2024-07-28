@@ -36,7 +36,6 @@
 		762A1C292C55C8D9008D92CC /* ChannelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762A1C282C55C8D9008D92CC /* ChannelModel.swift */; };
 		762A1C2B2C55C935008D92CC /* PlaylistItemsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762A1C2A2C55C935008D92CC /* PlaylistItemsModel.swift */; };
 		76F265942C56A14800A06C5F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 76F265932C56A14800A06C5F /* .gitignore */; };
-		76F265962C56A16B00A06C5F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 76F265952C56A16B00A06C5F /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,7 +70,6 @@
 		762A1C282C55C8D9008D92CC /* ChannelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelModel.swift; sourceTree = "<group>"; };
 		762A1C2A2C55C935008D92CC /* PlaylistItemsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistItemsModel.swift; sourceTree = "<group>"; };
 		76F265932C56A14800A06C5F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		76F265952C56A16B00A06C5F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +119,6 @@
 				762A1BE82C54721C008D92CC /* Assets.xcassets */,
 				762A1BEA2C54721C008D92CC /* LaunchScreen.storyboard */,
 				762A1BED2C54721C008D92CC /* Info.plist */,
-				76F265952C56A16B00A06C5F /* .gitignore */,
 			);
 			path = YouTubeApp;
 			sourceTree = "<group>";
@@ -301,7 +298,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76F265962C56A16B00A06C5F /* .gitignore in Resources */,
 				762A1C0D2C55433B008D92CC /* PlaylistsViewController.xib in Resources */,
 				762A1BEC2C54721C008D92CC /* LaunchScreen.storyboard in Resources */,
 				762A1C152C554364008D92CC /* AboutViewController.xib in Resources */,
