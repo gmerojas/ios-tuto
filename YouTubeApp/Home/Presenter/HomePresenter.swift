@@ -24,21 +24,41 @@ class HomePresenter{
     
     func getHomeObjects() async{
         objectList.removeAll()
+        
+        async let channel = try await provider.getChannels(channelId: Constants.channelId).items
+        async let playlist = try await provider.getPlaylists(channelId: Constants.channelId).items
+        async let videos = try await provider.getVideos(searchString: "", channelId: Constants.channelId).items
+        //async let playlistItems = try await provider.getPlaylistItems(playlistId: playlist.first?.id ?? "").items
+        
         do{
-            let channel = try await provider.getChannels(channelId: Constants.channelId).items
-            let playlist = try await provider.getPlaylists(channelId: Constants.channelId).items
-            let videos = try await provider.getVideos(searchString: "", channelId: Constants.channelId).items
-            let playlistItems = try await provider.getPlaylistItems(playlistId: playlist.first?.id ?? "").items
+            let (responseChannel, responsePlaylist, responseVideos) = await (try channel, try playlist, try videos)
             
-            objectList.append(channel)
-            objectList.append(playlistItems)
-            objectList.append(videos)
-            objectList.append(playlist)
+            objectList.append(responseChannel)
+            
+            if let playlistId = responsePlaylist.first?.id, let playlistItems = await getPlaylistItems(playlistId: playlistId){
+                
+                objectList.append(playlistItems.items)
+            }
+
+            objectList.append(responseVideos)
+            objectList.append(responsePlaylist)
+            
+            delegate?.getData(list: objectList)
             
         }catch{
             print(error)
             objectList.removeAll()
         }
         
+    }
+    
+    func getPlaylistItems(playlistId : String) async -> PlaylistItemsModel?{
+        do{
+            let playlistItems = try await provider.getPlaylistItems(playlistId: playlistId)
+            return playlistItems
+        }catch{
+            print("error: ",error)
+            return nil
+        }
     }
 }
