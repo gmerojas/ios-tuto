@@ -44,6 +44,12 @@
 		76F265A72C56F89300A06C5F /* SearchVideos.json in Resources */ = {isa = PBXBuildFile; fileRef = 76F265A62C56F89300A06C5F /* SearchVideos.json */; };
 		76F265A92C56F92F00A06C5F /* VideoOnlyOne.json in Resources */ = {isa = PBXBuildFile; fileRef = 76F265A82C56F92F00A06C5F /* VideoOnlyOne.json */; };
 		76F265AB2C56FCFC00A06C5F /* MockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F265AA2C56FCFC00A06C5F /* MockManager.swift */; };
+		76F265C12C57183900A06C5F /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F265BF2C57183900A06C5F /* VideoCell.swift */; };
+		76F265C22C57183900A06C5F /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76F265C02C57183900A06C5F /* VideoCell.xib */; };
+		76F265C52C57193400A06C5F /* PlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F265C32C57193400A06C5F /* PlaylistCell.swift */; };
+		76F265C62C57193400A06C5F /* PlaylistCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76F265C42C57193400A06C5F /* PlaylistCell.xib */; };
+		76F265C92C5719A600A06C5F /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F265C72C5719A600A06C5F /* ChannelCell.swift */; };
+		76F265CA2C5719A600A06C5F /* ChannelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76F265C82C5719A600A06C5F /* ChannelCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +92,12 @@
 		76F265A62C56F89300A06C5F /* SearchVideos.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SearchVideos.json; sourceTree = "<group>"; };
 		76F265A82C56F92F00A06C5F /* VideoOnlyOne.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = VideoOnlyOne.json; sourceTree = "<group>"; };
 		76F265AA2C56FCFC00A06C5F /* MockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockManager.swift; sourceTree = "<group>"; };
+		76F265BF2C57183900A06C5F /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		76F265C02C57183900A06C5F /* VideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = "<group>"; };
+		76F265C32C57193400A06C5F /* PlaylistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistCell.swift; sourceTree = "<group>"; };
+		76F265C42C57193400A06C5F /* PlaylistCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaylistCell.xib; sourceTree = "<group>"; };
+		76F265C72C5719A600A06C5F /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
+		76F265C82C5719A600A06C5F /* ChannelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChannelCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +249,7 @@
 		762A1C212C55C006008D92CC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				76F265AC2C57101200A06C5F /* CustomCells */,
 				762A1C022C5540DF008D92CC /* HomeViewController.swift */,
 				762A1C032C5540DF008D92CC /* HomeViewController.xib */,
 			);
@@ -270,6 +283,19 @@
 				76F265A82C56F92F00A06C5F /* VideoOnlyOne.json */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		76F265AC2C57101200A06C5F /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				76F265BF2C57183900A06C5F /* VideoCell.swift */,
+				76F265C02C57183900A06C5F /* VideoCell.xib */,
+				76F265C32C57193400A06C5F /* PlaylistCell.swift */,
+				76F265C42C57193400A06C5F /* PlaylistCell.xib */,
+				76F265C72C5719A600A06C5F /* ChannelCell.swift */,
+				76F265C82C5719A600A06C5F /* ChannelCell.xib */,
+			);
+			path = CustomCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76F265A92C56F92F00A06C5F /* VideoOnlyOne.json in Resources */,
+				76F265CA2C5719A600A06C5F /* ChannelCell.xib in Resources */,
 				762A1C0D2C55433B008D92CC /* PlaylistsViewController.xib in Resources */,
 				76F265A32C56F7AB00A06C5F /* Channel.json in Resources */,
 				762A1BEC2C54721C008D92CC /* LaunchScreen.storyboard in Resources */,
@@ -339,7 +366,9 @@
 				762A1BE92C54721C008D92CC /* Assets.xcassets in Resources */,
 				762A1C092C55431F008D92CC /* VideosViewController.xib in Resources */,
 				76F265A72C56F89300A06C5F /* SearchVideos.json in Resources */,
+				76F265C22C57183900A06C5F /* VideoCell.xib in Resources */,
 				762A1BE72C547201008D92CC /* Main.storyboard in Resources */,
+				76F265C62C57193400A06C5F /* PlaylistCell.xib in Resources */,
 				762A1C052C5540DF008D92CC /* HomeViewController.xib in Resources */,
 				76F265942C56A14800A06C5F /* .gitignore in Resources */,
 				762A1C112C554351008D92CC /* ChannelsViewController.xib in Resources */,
@@ -359,10 +388,13 @@
 				762A1C082C55431F008D92CC /* VideosViewController.swift in Sources */,
 				762A1BFC2C553DED008D92CC /* MainViewController.swift in Sources */,
 				762A1C2B2C55C935008D92CC /* PlaylistItemsModel.swift in Sources */,
+				76F265C92C5719A600A06C5F /* ChannelCell.swift in Sources */,
 				762A1BE42C547201008D92CC /* ViewController.swift in Sources */,
+				76F265C12C57183900A06C5F /* VideoCell.swift in Sources */,
 				76F2659A2C56F28100A06C5F /* HomeProviderMock.swift in Sources */,
 				76F2659C2C56F2BA00A06C5F /* Utils.swift in Sources */,
 				762A1C1C2C558AA9008D92CC /* RequestModel.swift in Sources */,
+				76F265C52C57193400A06C5F /* PlaylistCell.swift in Sources */,
 				762A1C182C5588C0008D92CC /* ServiceLayer.swift in Sources */,
 				762A1C1F2C558FB9008D92CC /* Constants.swift in Sources */,
 				76F265AB2C56FCFC00A06C5F /* MockManager.swift in Sources */,
